@@ -1,0 +1,1 @@
+{"level":"error","time":"2021-11-03 00:45:50","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:39","msg":"连接user服务出现错误","error":"grpc: no transport security set (use grpc.WithInsecure() explicitly or set credentials)"}

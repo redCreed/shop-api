@@ -1,0 +1,54 @@
+develop:
+  http:
+    host: '127.0.0.1'  ##key和value之间要加空格
+    port: 8081
+  service:
+    name: 'user-web'
+    http: ""
+    port: 8500
+  jWTConfig:
+    signingKey: "90m40*&!Ho9tj0"
+  AliSmsConfig:
+    ApiKey: ""
+    ApiSecrect: ""
+  RedisConfig:
+    Host: "127.0.0.1"
+    Port: "3306"
+    Expire: 120
+
+
+test:
+  http:
+    host: '127.0.0.1'
+    port:  8082
+  service:
+    name: 'user-web2'
+    http: ""
+    port: 8500
+  jWTConfig:
+    signingKey: "90m40*&!Ho9tj0"
+  AliSmsConfig:
+    ApiKey: ""
+    ApiSecrect: ""
+  RedisConfig:
+    Host: "127.0.0.1"
+    Port: "3306"
+    Expire: 120
+
+release:
+  http:
+    host: '127.0.0.1'
+    port: 8083
+  service :
+    name: 'user-web3'
+    http: ""
+    port: 8500
+  jWTConfig:
+    signingKey: "90m40*&!Ho9tj0"
+  AliSmsConfig:
+    ApiKey: ""
+    ApiSecrect: ""
+  RedisConfig:
+    Host: "127.0.0.1"
+    Port: "3306"
+    Expire: 120

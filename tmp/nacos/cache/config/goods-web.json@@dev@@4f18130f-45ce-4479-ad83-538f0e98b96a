@@ -1,0 +1,35 @@
+{
+  "name":"goods-web",
+  "host":"192.168.18.100",
+  "tags":[
+    "goods-web1",
+    "goods-web2",
+    "goods-web3"
+  ],
+  "port":8802,
+  "user_srv":{
+    "host":"",
+    "port":0,
+    "name":"goods-srv"
+  },
+  "jwt":{
+    "key":"(&8362IK0jd83jkd0d"
+  },
+  "sms":{
+    "key":"xx",
+    "secrect":"xx11"
+  },
+  "redis":{
+    "host":"192.168.18.101",
+    "port":6379
+  },
+  "consul":{
+    "host":"192.168.18.111",
+    "port":8500
+  },
+   "jaeger":{
+    "host":"192.168.18.111",
+    "port":6831,
+    "name":"goods-srv"
+  }
+}

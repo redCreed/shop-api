@@ -1,0 +1,1 @@
+{"level":"error","time":"2022-03-08 03:26:04","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}

@@ -1,0 +1,35 @@
+{
+  "name":"order-web",
+  "host":"192.168.18.100",
+  "tags":[
+    "order-web1",
+    "order-web2",
+    "order-web3"
+  ],
+  "port":8802,
+  "order_srv":{
+    "host":"",
+    "port":0,
+    "name":"order-srv"
+  },
+  "jwt":{
+    "key":"(&8362IK0jd83jkd0d"
+  },
+  "sms":{
+    "key":"xx",
+    "secrect":"xx11"
+  },
+  "redis":{
+    "host":"192.168.18.101",
+    "port":6379
+  },
+  "consul":{
+    "host":"192.168.18.111",
+    "port":8500
+  },
+  "jaeger":{
+    "host":"192.168.18.111",
+    "port":6831,
+    "name":"order-srv"
+  }
+}

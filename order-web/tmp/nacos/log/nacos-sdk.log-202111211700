@@ -1,0 +1,60 @@
+2021-11-21T17:47:00.191+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:47:00.197+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:47:00.198+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:47:00.198+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-11-21T17:47:00.199+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: goods4f18130f-45ce-4479-ad83-538f0e98b96a.
+2021-11-21T17:47:33.953+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:47:33.959+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:47:33.960+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:47:33.960+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-11-21T17:47:33.961+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: goods4f18130f-45ce-4479-ad83-538f0e98b96a.
+2021-11-21T17:54:27.269+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:54:27.274+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:54:27.276+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:54:27.276+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-11-21T17:54:27.276+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: goods4f18130f-45ce-4479-ad83-538f0e98b96a.
+2021-11-21T17:56:44.340+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:56:44.344+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:56:44.347+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:56:44.347+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-11-21T17:56:44.347+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: goods4f18130f-45ce-4479-ad83-538f0e98b96a.
+2021-11-21T17:56:57.709+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:56:57.713+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:56:57.715+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"goods4f18130f-45ce-4479-ad83-538f0e98b96a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-11-21T17:56:57.715+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-11-21T17:56:57.715+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: goods4f18130f-45ce-4479-ad83-538f0e98b96a.
