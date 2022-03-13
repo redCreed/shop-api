@@ -1,0 +1,8 @@
+{"level":"error","time":"2022-03-13 11:27:16","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Unknown desc = test backoff"}
+{"level":"error","time":"2022-03-13 11:30:32","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Unknown desc = test backoff"}
+{"level":"error","time":"2022-03-13 11:31:26","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Unknown desc = test backoff"}
+{"level":"error","time":"2022-03-13 12:08:58","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Unknown desc = test backoff"}
+{"level":"error","time":"2022-03-13 12:17:13","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Internal desc = test backoff"}
+{"level":"error","time":"2022-03-13 12:18:15","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Internal desc = test backoff"}
+{"level":"error","time":"2022-03-13 12:18:35","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Internal desc = test backoff"}
+{"level":"error","time":"2022-03-13 12:18:49","line":"D:/gopath/src/mxshop-api/user-web/api/user.go:53","msg":"获取用户列表数据","error":"rpc error: code = Internal desc = test backoff"}

@@ -2,15 +2,18 @@ package initialize
 
 import (
 	"fmt"
+	grpc_retry "github.com/grpc-ecosystem/go-grpc-middleware/retry"
 	"github.com/hashicorp/consul/api"
 	_ "github.com/mbobakov/grpc-consul-resolver" // It's important
 	"github.com/opentracing/opentracing-go"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
+	"google.golang.org/grpc/codes"
 	"log"
 	"mxshop-api/user-web/global"
 	"mxshop-api/user-web/proto"
 	"mxshop-api/user-web/utils/otgrpc"
+	"time"
 )
 
 //初始化grpc连接与客户端负载均衡 切记导入上面的包grpc-consul-resolver
@@ -28,10 +31,18 @@ func InitSrvConn2() {
 		grpc.WithInsecure(),
 		grpc.WithDefaultServiceConfig(`{"loadBalancingPolicy": "round_robin"}`),
 		grpc.WithChainUnaryInterceptor(otgrpc.OpenTracingClientInterceptor(opentracing.GlobalTracer()),
-			//interceptor.TimeoutInterceptor(1*time.Second),
+
+			//interceptor.TimeoutInterceptor(1*time.Second), //超时拦截器
+
+			//响应重试
+			grpc_retry.UnaryClientInterceptor(
+				grpc_retry.WithMax(2),
+				grpc_retry.WithCodes(codes.Internal), //服务器应该设置超时时间
+				//grpc_retry.WithPerRetryTimeout(4*time.Second), //每次重试超时时间
+				grpc_retry.WithBackoff(grpc_retry.BackoffLinearWithJitter(time.Second, 0.1)),
+				),
 			),
 		)
-
 
 	if err != nil {
 		log.Fatal(err)
@@ -85,3 +96,4 @@ func InitSrvConn()  {
 	userSrvClient := proto.NewUserClient(userConn)
 	global.UserSrvClient = userSrvClient
 }
+
