@@ -4,6 +4,7 @@ go 1.15
 
 require (
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
+	github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5 // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1322
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/dtm-labs/dtm v1.12.2
